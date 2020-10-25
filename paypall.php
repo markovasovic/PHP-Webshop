@@ -21,11 +21,11 @@ use PayPal\Api\Transaction;
 
 
 echo $_SESSION['favcolor'];
-$productname = "Nokia";
+$productname = "";
 $productPrice = $_SESSION['amount'];  
 $curency ="USD";
-$shipingPrice = 0;
-$quantity = 3;
+$shipingPrice = "";
+
 
 
 $payer = new Payer();
